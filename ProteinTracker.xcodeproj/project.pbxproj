@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		06300DF91A4315FB00D19166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06300DF81A4315FB00D19166 /* main.m */; };
 		06300DFC1A4315FB00D19166 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06300DFB1A4315FB00D19166 /* AppDelegate.m */; };
-		06300DFF1A4315FB00D19166 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06300DFE1A4315FB00D19166 /* ViewController.m */; };
+		06300DFF1A4315FB00D19166 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06300DFE1A4315FB00D19166 /* MainViewController.m */; };
 		06300E021A4315FB00D19166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06300E001A4315FB00D19166 /* Main.storyboard */; };
 		06300E041A4315FB00D19166 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06300E031A4315FB00D19166 /* Images.xcassets */; };
 		06300E071A4315FB00D19166 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06300E051A4315FB00D19166 /* LaunchScreen.xib */; };
 		06300E131A4315FB00D19166 /* ProteinTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06300E121A4315FB00D19166 /* ProteinTrackerTests.m */; };
+		06300E1E1A431AEE00D19166 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06300E1D1A431AEE00D19166 /* HistoryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		06300DF81A4315FB00D19166 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06300DFA1A4315FB00D19166 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		06300DFB1A4315FB00D19166 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		06300DFD1A4315FB00D19166 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		06300DFE1A4315FB00D19166 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06300DFD1A4315FB00D19166 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		06300DFE1A4315FB00D19166 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		06300E011A4315FB00D19166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06300E031A4315FB00D19166 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		06300E061A4315FB00D19166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		06300E0C1A4315FB00D19166 /* ProteinTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProteinTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06300E111A4315FB00D19166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06300E121A4315FB00D19166 /* ProteinTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProteinTrackerTests.m; sourceTree = "<group>"; };
+		06300E1C1A431AEE00D19166 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		06300E1D1A431AEE00D19166 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +86,14 @@
 			children = (
 				06300DFA1A4315FB00D19166 /* AppDelegate.h */,
 				06300DFB1A4315FB00D19166 /* AppDelegate.m */,
-				06300DFD1A4315FB00D19166 /* ViewController.h */,
-				06300DFE1A4315FB00D19166 /* ViewController.m */,
+				06300DFD1A4315FB00D19166 /* MainViewController.h */,
+				06300DFE1A4315FB00D19166 /* MainViewController.m */,
 				06300E001A4315FB00D19166 /* Main.storyboard */,
 				06300E031A4315FB00D19166 /* Images.xcassets */,
 				06300E051A4315FB00D19166 /* LaunchScreen.xib */,
 				06300DF61A4315FB00D19166 /* Supporting Files */,
+				06300E1C1A431AEE00D19166 /* HistoryViewController.h */,
+				06300E1D1A431AEE00D19166 /* HistoryViewController.m */,
 			);
 			path = ProteinTracker;
 			sourceTree = "<group>";
@@ -219,9 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06300DFF1A4315FB00D19166 /* ViewController.m in Sources */,
+				06300DFF1A4315FB00D19166 /* MainViewController.m in Sources */,
 				06300DFC1A4315FB00D19166 /* AppDelegate.m in Sources */,
 				06300DF91A4315FB00D19166 /* main.m in Sources */,
+				06300E1E1A431AEE00D19166 /* HistoryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
