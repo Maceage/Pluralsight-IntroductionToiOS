@@ -20,4 +20,6 @@
 
 - (IBAction)addProtein:(id)sender;
 
+- (IBAction)unwindToMain:(UIStoryboardSegue *)segue;
+
 @end
