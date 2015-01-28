@@ -28,6 +28,16 @@
     
     NSInteger goal = [[NSUserDefaults standardUserDefaults] integerForKey:@"goal"];
     self.goalLabel.text = [NSString stringWithFormat:@"%ld", (long)goal];
+    
+    NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
+    [center addObserver:self selector:@selector(goalChanged:) name:NSUserDefaultsDidChangeNotification object:nil];
+}
+
+- (void)goalChanged:(NSNotification *)notification {
+    NSUserDefaults *defaults = (NSUserDefaults *)[notification object];
+    
+    NSInteger goal = [defaults integerForKey:@"goal"];
+    self.goalLabel.text = [NSString stringWithFormat:@"%ld", (long)goal];
 }
 
 - (void)didReceiveMemoryWarning {
