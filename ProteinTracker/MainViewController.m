@@ -25,7 +25,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NSInteger goal = [[NSUserDefaults standardUserDefaults] integerForKey:@"goal"];
+    self.goalLabel.text = [NSString stringWithFormat:@"%ld", (long)goal];
 }
 
 - (void)didReceiveMemoryWarning {

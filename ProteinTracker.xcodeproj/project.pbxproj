@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		060EF2861A790ECA000EA663 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 060EF2851A790ECA000EA663 /* Settings.bundle */; };
 		06300DF91A4315FB00D19166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06300DF81A4315FB00D19166 /* main.m */; };
 		06300DFC1A4315FB00D19166 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06300DFB1A4315FB00D19166 /* AppDelegate.m */; };
 		06300DFF1A4315FB00D19166 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06300DFE1A4315FB00D19166 /* MainViewController.m */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		060EF2851A790ECA000EA663 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		06300DF31A4315FB00D19166 /* ProteinTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProteinTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06300DF71A4315FB00D19166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06300DF81A4315FB00D19166 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				06300DF61A4315FB00D19166 /* Supporting Files */,
 				06300E1C1A431AEE00D19166 /* HistoryViewController.h */,
 				06300E1D1A431AEE00D19166 /* HistoryViewController.m */,
+				060EF2851A790ECA000EA663 /* Settings.bundle */,
 			);
 			path = ProteinTracker;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				060EF2861A790ECA000EA663 /* Settings.bundle in Resources */,
 				06300E021A4315FB00D19166 /* Main.storyboard in Resources */,
 				06300E071A4315FB00D19166 /* LaunchScreen.xib in Resources */,
 				06300E041A4315FB00D19166 /* Images.xcassets in Resources */,
@@ -418,6 +422,7 @@
 				06300E181A4315FB00D19166 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06300E191A4315FB00D19166 /* Build configuration list for PBXNativeTarget "ProteinTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +431,7 @@
 				06300E1B1A4315FB00D19166 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
